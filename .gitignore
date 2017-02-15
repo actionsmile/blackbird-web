@@ -1,6 +1,7 @@
 /.settings/*
 /html-template/*
 /node_modules/**
+/test/**
 /bin-debug/*
 /bin-release/*
 /bin/*
