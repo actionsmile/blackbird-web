@@ -1,6 +1,7 @@
 <template>
   <span>
-    <p>Copyright &copy; <a href="https://github.com/actionsmile">Aziz Zainutdin</a><br/>2015&nbsp;&mdash; {{now}}</p>
+    <p>Copyright <a href="https://github.com/actionsmile">Aziz Zainutdin</a></p>
+    <p>2015 — {{now}}</p>
 </span>
 </template>
 
@@ -15,19 +16,19 @@ export default {
 </script>
 
 <style scoped>
-p {
-  font-size: .7em;
-  margin: 65px auto 0;
-	color: rgba(170, 170, 170, .2);
-	text-shadow: 0 1px 0 rgba(100, 100, 100, .2);
-  text-align: center;
-  position: fixed;
-  bottom: .7em;
-  width: 100%;
+span {
+	border: 1px solid red;
+  margin-bottom: -1em;
 }
-p a{
+
+span p {
+  color: rgba(170, 170, 170, .2);
+  font-size: .7em;
+}
+
+p a {
+	text-shadow: 0 1px 0 rgba(100, 100, 100, .2);
   text-decoration: none;
-	margin-left: .1em;
 	border-bottom: 1px solid;
 }
 

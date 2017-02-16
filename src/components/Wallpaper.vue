@@ -12,10 +12,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  top: 0;
-  bottom: 0;
-  position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 </style>
