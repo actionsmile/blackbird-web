@@ -1,6 +1,4 @@
-# vue-blackbird
-
-> Blackbird framework official web-site
+# Blackbird framework official web-site [![CircleCI](https://circleci.com/gh/actionsmile/blackbird-web.svg?style=svg)](https://circleci.com/gh/actionsmile/blackbird-web)
 
 ## Build Setup
 
