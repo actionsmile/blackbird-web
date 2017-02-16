@@ -23,7 +23,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #fff;
-  margin-top: 60px;
+  pading-top: 60px;
   height: 100%;
 }
 </style>

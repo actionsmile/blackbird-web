@@ -4,7 +4,6 @@
   </div>
 </template>
 
-
 <style>
 .blackbird-background {
   background: url(./../assets/bg.jpg) no-repeat center center fixed;
@@ -12,7 +11,10 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  position: absolute;
 }
 </style>
